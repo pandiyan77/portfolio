@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padiyan S. — Python Full Stack Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Padiyan S., Aspiring Python Full Stack Developer and B.Sc. Computer Science graduate.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+          <!-- NAVIGATION BAR -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                <div class="logo__badge">P</div>
+                <span class="logo__text">Padiyan.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i data-lucide="x"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <a href="#contact" class="btn btn--primary nav__btn">LET'S TALK</a>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i data-lucide="menu"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HERO SECTION -->
+        <section class="hero section" id="home">
+            <div class="hero__grid container">
+                <div class="hero__content">
+                    <span class="section__subtitle animate-fade">HELLO THERE!</span>
+                    <h1 class="hero__title">
+                        I'm <span class="highlight">Padiyan S.</span><br>
+                        <span class="hero__title-sub">Python Full Stack<br>Developer.</span>
+                    </h1>
+                    <p class="hero__description">
+                        I'm a Computer Science graduate passionate about building responsive websites and practical web applications using Python, JavaScript, and database technologies.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#projects" class="btn btn--primary">
+                            <span>VIEW MY WORK</span>
+                            <i data-lucide="arrow-down"></i>
+                        </a>
+                        <a href="assets/resume/Padiyan_S_Resume.pdf" class="btn btn--outline" download>
+                            <span>DOWNLOAD CV</span>
+                            <i data-lucide="download"></i>
+                        </a>
+                        <div class="cv-note" style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px;">
+                            *(Place your PDF in <code>assets/resume/Padiyan_S_Resume.pdf</code>)*
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__photo-wrapper">
+                    <div class="hero__photo-glow"></div>
+                    <div class="hero__photo-container">
+                            <!-- To use a real photo, uncomment below and remove placeholder above -->
+                            <img src="pandiyan.jpeg" alt="Padiyan S." class="profile-img"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  NEON-GREEN SKILLS MARQUEE-->
+        <div class="marquee__section">
+            <div class="marquee__track">
+                <div class="marquee__content">
+                    <span>PYTHON DEVELOPMENT</span> <span class="star">★</span>
+                    <span>FULL STACK DEVELOPMENT</span> <span class="star">★</span>
+                    <span>WEB APPLICATIONS</span> <span class="star">★</span>
+                    <span>DATABASE DESIGN</span> <span class="star">★</span>
+                    <span>RESPONSIVE WEBSITES</span> <span class="star">★</span>
+                </div>
+                <div class="marquee__content" aria-hidden="true">
+                    <span>PYTHON DEVELOPMENT</span> <span class="star">★</span>
+                    <span>FULL STACK DEVELOPMENT</span> <span class="star">★</span>
+                    <span>WEB APPLICATIONS</span> <span class="star">★</span>
+                    <span>DATABASE DESIGN</span> <span class="star">★</span>
+                    <span>RESPONSIVE WEBSITES</span> <span class="star">★</span>
+                </div>
+            </div>
+        </div>
+
+        <!--SERVICES SECTION -->
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section__header text-center">
+                    <span class="section__subtitle">MY SPECIALIZATION</span>
+                    <h2 class="section__title">Services I <span class="highlight">Provide</span></h2>
+                </div>
+
+                <div class="services__grid">
+                    <!-- Service 1 -->
+                    <div class="service__card">
+                        <div class="service__icon-box">
+                            <i data-lucide="monitor"></i>
+                        </div>
+                        <h3 class="service__title">Frontend Development</h3>
+                        <p class="service__description">
+                            Responsive and accessible websites using HTML, CSS, and JavaScript.
+                        </p>
+                        <div class="service__footer">
+                            <a href="#contact" class="service__link">Learn More <i data-lucide="arrow-right"></i></a>
+                        </div>
+                        <div class="card__accent-line"></div>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service__card">
+                        <div class="service__icon-box">
+                            <i data-lucide="server"></i>
+                        </div>
+                        <h3 class="service__title">Python Backend Development</h3>
+                        <p class="service__description">
+                            Backend development using Python, Flask, APIs, and database integration.
+                        </p>
+                        <div class="service__footer">
+                            <a href="#contact" class="service__link">Learn More <i data-lucide="arrow-right"></i></a>
+                        </div>
+                        <div class="card__accent-line"></div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service__card">
+                        <div class="service__icon-box">
+                            <i data-lucide="layers"></i>
+                        </div>
+                        <h3 class="service__title">Full Stack Web Applications</h3>
+                        <p class="service__description">
+                            Practical web applications combining frontend interfaces, backend logic, and databases.
+                        </p>
+                        <div class="service__footer">
+                            <a href="#contact" class="service__link">Learn More <i data-lucide="arrow-right"></i></a>
+                        </div>
+                        <div class="card__accent-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--ABOUT ME SECTION -->
+        <section class="about section" id="about">
+            <div class="container about__grid">
+                <div class="about__photo-wrapper">
+                    <div class="about__circle-bg"></div>
+                    <div class="about__photo-container">
+                        <div class="photo-placeholder about-placeholder">
+                            <div class="avatar-fallback">
+                                <span class="initials">PS</span>
+                                <i data-lucide="user" class="fallback-icon"></i>
+                            </div>
+                            <!-- <img src="assets/images/about-photo.webp" alt="Padiyan S." class="profile-img"> -->
+                        </div>
+                    </div>
+                    <!-- Floating tags around circle -->
+                    <span class="tag tag-python">Python</span>
+                    <span class="tag tag-html">HTML & CSS</span>
+                    <span class="tag tag-js">JavaScript</span>
+                    <span class="tag tag-flask">Flask</span>
+                    <span class="tag tag-sql">SQL</span>
+                    <span class="tag tag-stack">Full Stack</span>
+                </div>
+
+                <div class="about__content">
+                    <span class="section__subtitle">ABOUT ME</span>
+                    <h2 class="section__title">Who is <span class="highlight">Padiyan S.</span>?</h2>
+                    <p class="about__description">
+                        "I'm Padiyan S., a B.Sc. Computer Science graduate interested in Python full-stack development. I'm building practical projects to strengthen my programming, frontend, backend, and database skills. My goal is to grow as a developer by creating useful software solutions."
+                    </p>
+
+                    <div class="about__info-grid">
+                        <div class="info__item">
+                            <h4>EDUCATION</h4>
+                            <p>B.Sc. Computer Science</p>
+                        </div>
+                        <div class="info__item">
+                            <h4>FOCUS</h4>
+                            <p>Python Full Stack Development</p>
+                        </div>
+                        <div class="info__item">
+                            <h4>INTERESTS</h4>
+                            <p>Web Applications & Backend</p>
+                        </div>
+                    </div>
+
+                    <div class="about__action">
+                        <a href="#education" class="btn btn--outline">ABOUT MY JOURNEY</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--TECHNICAL SKILLS SECTION-->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section__header text-center">
+                    <span class="section__subtitle">MY FAVORITE TOOLS</span>
+                    <h2 class="section__title">Exploring the Tools<br>Behind My <span class="highlight">Designs</span></h2>
+                </div>
+
+                <div class="skills__grid">
+                    <!-- Frontend -->
+                    <div class="skill__card">
+                        <div class="skill__card-header">
+                            <i data-lucide="layout" class="skill__cat-icon"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <ul class="skill__list">
+                            <li><i data-lucide="check-circle-2"></i> HTML5 <span class="skill-desc">Semantic markup & structure</span></li>
+                            <li><i data-lucide="check-circle-2"></i> CSS3 <span class="skill-desc">Responsive layouts & styling</span></li>
+                            <li><i data-lucide="check-circle-2"></i> JavaScript <span class="skill-desc">Interactive UI & DOM manipulation</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill__card">
+                        <div class="skill__card-header">
+                            <i data-lucide="cpu" class="skill__cat-icon"></i>
+                            <h3>Backend</h3>
+                        </div>
+                        <ul class="skill__list">
+                            <li><i data-lucide="check-circle-2"></i> Python <span class="skill-desc">Core logic & algorithms</span></li>
+                            <li><i data-lucide="check-circle-2"></i> Flask <span class="skill-desc">Lightweight web framework</span></li>
+                            <li><i data-lucide="check-circle-2"></i> REST APIs <span class="skill-desc">Endpoint routing & communication</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="skill__card">
+                        <div class="skill__card-header">
+                            <i data-lucide="database" class="skill__cat-icon"></i>
+                            <h3>Database</h3>
+                        </div>
+                        <ul class="skill__list">
+                            <li><i data-lucide="check-circle-2"></i> SQL <span class="skill-desc">Queries & relational data</span></li>
+                            <li><i data-lucide="check-circle-2"></i> SQLite <span class="skill-desc">Embedded database storage</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skill__card">
+                        <div class="skill__card-header">
+                            <i data-lucide="terminal" class="skill__cat-icon"></i>
+                            <h3>Development Tools</h3>
+                        </div>
+                        <ul class="skill__list">
+                            <li><i data-lucide="check-circle-2"></i> Git <span class="skill-desc">Version control system</span></li>
+                            <li><i data-lucide="check-circle-2"></i> GitHub <span class="skill-desc">Code hosting & collaboration</span></li>
+                            <li><i data-lucide="check-circle-2"></i> VS Code <span class="skill-desc">Primary code editor</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--PROJECTS SECTION -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section__header text-center">
+                    <span class="section__subtitle">SELECTED WORK</span>
+                    <h2 class="section__title">Projects I've <span class="highlight">Built</span></h2>
+                </div>
+
+                <div class="projects__grid">
+                    <!-- Project 1 -->
+                    <div class="project__card">
+                        <div class="project__image-box">
+                            <div class="project__preview-placeholder">
+                                <i data-lucide="globe"></i>
+                                <span>Portfolio Preview</span>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Personal Portfolio Website</h3>
+                            <p class="project__description">
+                                A responsive portfolio website showcasing personal information, education, technical skills, and projects.
+                            </p>
+                            <div class="project__tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#home" class="btn btn--primary btn--sm">
+                                    <i data-lucide="external-link"></i> Live Demo
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="btn btn--outline btn--sm">
+                                    <i data-lucide="github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project__card">
+                        <div class="project__image-box">
+                            <div class="project__preview-placeholder">
+                                <i data-lucide="shopping-bag"></i>
+                                <span>Meat Shop Preview</span>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Meat Shop Website</h3>
+                            <p class="project__description">
+                                A modern meat shop website where customers can browse meat products, view prices, select quantities, and prepare an order.
+                            </p>
+                            <div class="project__tags">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>SQLite</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#contact" class="btn btn--primary btn--sm">
+                                    <i data-lucide="external-link"></i> Live Demo
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="btn btn--outline btn--sm">
+                                    <i data-lucide="github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project__card">
+                        <div class="project__image-box">
+                            <div class="project__preview-placeholder">
+                                <i data-lucide="check-square"></i>
+                                <span>Task Manager Preview</span>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Python Task Manager</h3>
+                            <p class="project__description">
+                                A simple task management application for creating, editing, completing, and deleting tasks.
+                            </p>
+                            <div class="project__tags">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>SQLite</span>
+                                <span>HTML/CSS</span>
+                            </div>
+                            <div class="project__buttons">
+                                <a href="#contact" class="btn btn--primary btn--sm">
+                                    <i data-lucide="external-link"></i> Live Demo
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener" class="btn btn--outline btn--sm">
+                                    <i data-lucide="github"></i> Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- EDUCATION SECTION-->
+        <section class="education section" id="education">
+            <div class="container">
+                <div class="section__header text-center">
+                    <span class="section__subtitle">ACADEMIC BACKGROUND</span>
+                    <h2 class="section__title">Education & <span class="highlight">Journey</span></h2>
+                </div>
+
+                <div class="education__card">
+                    <div class="education__badge">Graduation Year: 2026</div>
+                    <h3 class="education__degree">B.Sc. Computer Science</h3>
+                    <h4 class="education__institution">Sun Arts and Science College</h4>
+                    <p class="education__university">Thiruvalluvar University</p>
+                    <div class="education__divider"></div>
+                    <p class="education__objective">
+                        "I'm looking for opportunities to apply my programming knowledge, contribute to practical projects, and grow as a Python Full Stack Developer."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACT SECTION-->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section__header text-center">
+                    <span class="section__subtitle">GET IN TOUCH</span>
+                    <h2 class="section__title">Let's Build <span class="highlight">Something Useful.</span></h2>
+                    <p class="contact__intro">
+                        I'm open to discussing suitable entry-level developer opportunities and collaborative software projects.
+                    </p>
+                </div>
+
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <div class="contact__item">
+                            <div class="contact__icon-box">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:pandiyan.sj@gmail.com">pandiyan.sj@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon-box">
+                                <i data-lucide="github"></i>
+                            </div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com" target="_blank" rel="noopener">[ADD REAL GITHUB PROFILE URL]</a>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon-box">
+                                <i data-lucide="linkedin"></i>
+                            </div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener">[ADD REAL LINKEDIN PROFILE URL]</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact__form" id="contact-form">
+                        <div class="form__group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form__group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form__group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Inquiry / Opportunity">
+                        </div>
+                        <div class="form__group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full">
+                            <span>SEND MESSAGE</span>
+                            <i data-lucide="send"></i>
+                        </button>
+                        <div id="form-feedback" class="form__feedback"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER-->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__brand">
+                <a href="#home" class="footer__logo">Padiyan S.</a>
+                <p>Python Full Stack Developer</p>
+            </div>
+            <div class="footer__socials">
+                <a href="mailto:pandiyan.sj@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+            </div>
+            <div class="footer__copy">
+                <p>&copy; <span id="current-year">2026</span> Padiyan S. All rights reserved.</p>
+                <p class="footer__credit">Designed and developed by Padiyan S.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
